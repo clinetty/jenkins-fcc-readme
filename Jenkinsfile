@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git(url: 'https://github.com/clinetty/jenkins-fcc-readme', branch: 'main')
+        git(url: 'https://github.com/clinetty/jenkins-fcc-readme', branch: 'dev')
       }
     }
 
